@@ -357,4 +357,17 @@ body {
   .footer-copyright {
     width: 80px !important;
   }
+   .footer-button-media {
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+    padding-left: 11px;
+    padding-right: 30px;
+    border: 2px solid #ffffff;
+margin-right: 15px;
+    line-height: 35px;
+  }
+  .footer-copyright {
+    width: 80px !important;
+  }
 }
