@@ -348,6 +348,9 @@ body {
 
     line-height: 35px;
   }
+  .footer-copyright {
+    width: 80px !important;
+  }
 }
 
 @media (max-width: 408px) {
