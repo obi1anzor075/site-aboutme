@@ -322,6 +322,7 @@ body {
     width: 30px;
   }
 }
+/*Media for tabs*/
 @media (max-width: 533px) {
   .footer-button {
     display: none;
@@ -352,7 +353,7 @@ body {
     width: 80px !important;
   }
 }
-
+//media for phones
 @media (max-width: 408px) {
   .footer-copyright {
     width: 80px !important;
