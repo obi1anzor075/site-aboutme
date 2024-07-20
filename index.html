@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>About me</title>
+		<title>Обо мне</title>
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,15 +16,19 @@
 	</head>
 
 	<body>
-		<script type="text/javascript">
-			src = './js/main.js'
-		</script>
 		<section class="header">
 			<div class="blur">
-				<h1 class="header-title">Даниил Шиндин</h1>
-				<p class="header-subtitle">студент ИТ-колледжа</p>
+				<h1 class="header-title btn-animate">Даниил Шиндин</h1>
+				<p class="header-subtitle btn-animate">студент ИТ-колледжа</p>
+				<div class="text-box">
+					<a
+						href="./html/works.html#myinformation"
+						class="btn btn-white btn-animate"
+						>Мои работы</a
+					>
+				</div>
 				<div class="header-arrow">
-					<a href="#myinformation">
+					<a href="#myinformation" class="btn-animate">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="48"
@@ -48,47 +52,52 @@
 				<h2 class="section-header">Обо мне</h2>
 				<!--portfolio-card-wrapper-->
 				<div class="card-wrapper">
+					<img
+						align="left"
+						class="card-image"
+						src="./image/container-images/MyPhoto.jpg"
+						alt="MyPhoto"
+					/>
 					<!-- Card 1 -->
-					<div class="card-image">
-						<img
-							align="left"
-							class="card-image"
-							src="./image/container-images/MyPhoto.jpg"
-							alt="MyPhoto"
-						/>
+					<div class="title-wrapper">
+						<section class="card">
+							<p class="card-text">
+								<b>Привет</b>, меня зовут Шиндин Даниил, и я студент колледжа,
+								где изучаю веб-разработку и программирование. Я был увлечен
+								технологиями и творческими проектами, что привело меня к выбору
+								этой области. Я активно занимаюсь разработкой своих проектов,
+								принимаю участие в различных конкурсах и постоянно стремлюсь
+								расширять свои знания и навыки. Моя цель – стать профессионалом
+								в сфере веб-дизайна и создавать уникальные, интуитивно понятные
+								и визуально привлекательные сайты.
+							</p>
+						</section>
+						<!-- // Card 1 -->
+						<!-- Card 2 -->
+						<section class="card">
+							<p class="card-text">
+								<b>Мои навыки:</b> В ходе своего обучения я освоил основы
+								разработки веб-сайтов ASP.NET Core с использованием MS SQL
+								Server. Также знаю основы Docker, Nginx. Умею пользоваться Linux
+								системами.
+							</p>
+						</section>
+						<!-- // Card 2 -->
+						<!-- Card 3 -->
+						<section class="card">
+							<p class="card-text">
+								<b>Почему я выбрал веб-разработку:</b> Я с самого начала был
+								увлечен созданием цифровых продуктов, которые не только
+								привлекают внимание, но и являются удобными и эффективными. Моё
+								стремление к совершенству и внимание к деталям позволяют мне
+								разрабатывать сайты, которые соответствуют высоким стандартам
+								качества. Я верю, что хороший веб-дизайн может улучшить
+								взаимодействие пользователя и повысить удовлетворенность
+								клиентов.
+							</p>
+						</section>
+						<!-- // Card 3 -->
 					</div>
-					<section class="card">
-						<p class="card-text">
-							<b>Привет</b>, меня зовут Шиндин Даниил, и я студент колледжа, где
-							углубленно изучаю искусство веб-дизайна. Я в восторге от того, как
-							технологии и креативность могут сочетаться, чтобы создавать
-							уникальные и визуально привлекательные веб-проекты.
-						</p>
-					</section>
-					<!-- // Card 1 -->
-
-					<!-- Card 2 -->
-					<section class="card">
-						<p class="card-text">
-							<b>Мои навыки:</b> В ходе своего обучения я освоил основы
-							разработки веб-сайтов и дизайна с использованием различных
-							инструментов. Мое владение Unity и Blender позволяет мне создавать
-							захватывающие 3D-проекты, добавляя интерактивные элементы в
-							веб-среду.
-						</p>
-					</section>
-					<!-- // Card 2 -->
-					<!-- Card 3 -->
-					<section class="card">
-						<p class="card-text">
-							<b> Почему веб-дизайн: </b> Я увлечен тем, как пользователи
-							взаимодействуют с веб-сайтами, и стремлюсь создавать удобные и
-							инновационные веб-проекты. Мои знания в области веб-дизайна
-							позволяют мне не только воплощать ваши идеи в жизнь, но и
-							обеспечивать высокий уровень пользовательского опыта.
-						</p>
-					</section>
-					<!-- // Card 3 -->
 				</div>
 				<!-- // portfolio-card-wrapper-->
 			</div>

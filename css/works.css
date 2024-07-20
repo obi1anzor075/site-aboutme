@@ -1,0 +1,48 @@
+.portfolio {
+  height: calc(100vh - 151.8px);
+}
+
+.card {
+  max-width: 500px;
+}
+
+.card > h2 {
+  text-align: center;
+}
+
+.site-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.site-logo > * {
+  border-radius: 20px;
+  width: 450px;
+}
+
+.link_details {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all 0.2s;
+  background-color: #1e4776;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  width: fit-content;
+  margin: 18px;
+}
